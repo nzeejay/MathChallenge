@@ -65,7 +65,6 @@ public class Sorting {
         if (node.parent != null)
             if (node.parent.right == node)
                 node.sort();
-
     }
 }
 
